@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-// todo: abstract to render prop pattern 
 class EditableInput extends Component {
   constructor(props) {
     super(props)
@@ -107,7 +106,6 @@ class App extends Component {
     })
   }
   removeCard(list, card){
-    //todo: logic here ver similar can be DRYer
     return ()=>{
       this.setState(prevState=>{
         const newlists = prevState.lists.map(listItem=>{
