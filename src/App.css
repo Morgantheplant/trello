@@ -1,3 +1,8 @@
+body {
+ background: #0078c0;
+ padding: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -5,6 +10,14 @@
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
+}
+
+.pull-right {
+    float: right;
+}
+
+.remove {
+  cursor: pointer;
 }
 
 .App-header {
@@ -29,4 +42,91 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+main{
+  width: 5000px;
+}
+
+.title-main{
+  color:white;
+  font-style: italic;
+}
+
+.placeholder.add-list{
+  background: #1e66aa;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color:white;
+}
+
+.input > button {
+    background-color: #5aac44;
+    box-shadow: 0 1px 0 0 #3f6f21;
+    border: none;
+    color: #fff;
+}
+
+.input > input{
+  margin-right: 5px;
+}
+
+
+.input.add-list {
+    background-color: #dfe3e6;
+    border-radius: 3px;
+    height: auto;
+    min-height: 32px;
+    padding: 4px;
+}
+
+.add-list > input {  
+    background: #fff;
+    border: none;
+    box-shadow: inset 0 0 0 2px #0079bf;
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+
+.wrap-list.card-list {
+    display: inline-block;
+    vertical-align:top;
+    margin: 5px;
+    /* background: #dee3e6; */
+}
+
+.wrap-list.add-list {
+    margin: 10px;
+}
+
+.wrap-list.card-list {
+    background: #dee3e6;
+    padding: 9px;
+    border-radius: 7px;
+    width:265px;
+}
+
+.wrap-list.add-list {
+    display: inline-block;
+}
+
+.wrap-list.add-card {
+    color: darkgrey;
+    margin-top: 10px;
+}
+
+.input-item.card-list {
+    font-weight: bold;
+}
+
+.input-item.card {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 5px;
 }
